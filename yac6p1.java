@@ -10,7 +10,7 @@ public class Main {
         int N = readInt(), M = readInt();
         for (int i = 1; i <= N; i++) {
             for (int j = i + 1; j <= N; j++) {
-                if (M == 0) break;
+                if (M == 0) return;
                 System.out.println(i + " " + j);
                 M--;
             }
