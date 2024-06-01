@@ -7,10 +7,9 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		int N = readInt(); long A, B, P;
+		int N = readInt();
 		for (int i = 0; i < N; i++) {
-			A = readLong(); B = readLong(); P = readLong();
-			if (A * B != P) {
+			if (readLong() * readLong() != readLong()) {
     				System.out.println("16 BIT S/W ONLY");
 			} else {
     				System.out.println("POSSIBLE DOUBLE SIGMA");
