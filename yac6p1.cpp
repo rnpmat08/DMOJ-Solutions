@@ -11,7 +11,7 @@ int main() {
     int N, M; scan(N); scan(M);
     for (int i = 1; i <= N; i++) {
         for (int j = i + 1; j <= N; j++) {
-            if (M == 0) break;
+            if (M == 0) return 0;
             printf("%d ", i); printf("%d\n", j);
             M--;
         }
