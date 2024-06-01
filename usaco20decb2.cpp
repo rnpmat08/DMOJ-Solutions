@@ -4,8 +4,7 @@
 using namespace std;
 
 int main() {
-    int N, ans = 0; 
-    cin >> N;
+    int N, ans = 0; cin >> N;
     vector<int> P(N);
     for (int i = 0; i < N; i++) cin >> P[i];
     for (int i = 0; i < N; i++) {
