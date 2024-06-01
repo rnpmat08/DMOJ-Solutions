@@ -8,9 +8,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		int N = readInt(), ans = 0, D[] = new int[N];
-		for (int i = 0; i < N; i++) {
-			D[i] = readInt();
-		}
+		for (int i = 0; i < N; i++) D[i] = readInt();
 		for (int i = 0; i < N; i++) {
 			for (int j = i + 1; j <= N; j++) {
 				int[] P = Arrays.copyOfRange(D, i, j);
