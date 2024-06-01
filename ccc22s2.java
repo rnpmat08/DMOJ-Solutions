@@ -14,7 +14,7 @@ public class Main {
 		int Y = readInt();
 		String[] Y1 = new String[Y], Y2 = new String[Y];
 		for (int i = 0; i < Y; i++) {
-			Y1[i] = next();Y2[i] = next();
+			Y1[i] = next(); Y2[i] = next();
 		}
 		int G = readInt();
 		Map<String, Integer> M = new HashMap<>();
