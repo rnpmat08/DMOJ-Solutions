@@ -20,7 +20,7 @@ public class Main {
             }
         }
         System.out.println(V + " " + G.size());
-        for (int[] X : E) System.out.println(X[0] + " " + X[1]);
+        for (int[] X : G) System.out.println(X[0] + " " + X[1]);
     }
 
     static String next() throws IOException {
