@@ -1,14 +1,11 @@
 c = int(input())
 row1 = []
 row2 = []
-s = input()
-row1 = s.split()
-s = input()
-row2 = s.split()
+row1 = input().split()
+row2 = input().split()
 ans = 0
 
 for i in range(c):
-
     if row1[i] == '1':
         ans += 3
         if i < c - 1 and row1[i+1] == '1':
@@ -20,4 +17,4 @@ for i in range(c):
         if i < c - 1 and row2[i+1] == '1':
             ans -= 2
 
-print(total)
+print(ans)
