@@ -4,7 +4,6 @@ def print_poster(P):
     for i in P:
         print(''.join(i))
 
-
 n, m, r, c = map(int, input().split())
 
 if (n == r and m % 2 == 0 and c % 2 == 1) or (m == c and n % 2 == 0 and r % 2 == 1):
